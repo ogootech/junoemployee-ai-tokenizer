@@ -1,0 +1,21 @@
+
+{
+    "region" : "eu-central-1",
+    "profile" : "default",
+    "configuration" : "Release",
+    "framework"     : "net6.0",
+    "function-name" : "worksy-ai-tokenizer",
+    "function-description" : "",
+    "package-type"         : "Zip",
+    "function-handler"     : "Juno.AI.Tokenizer.Api",
+    "function-memory-size" : 512,
+    "function-role"        : "arn:aws:iam::797134868631:role/service-role/worksy-ai-tokenizer-role-8awnnhda",
+    "function-timeout"     : 15,
+    "function-runtime"     : "dotnet6",
+    "function-architecture" : "x86_64",
+    "function-subnets"      : "",
+    "function-security-groups" : "",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : "",
+    "image-tag"                : ""
+}
