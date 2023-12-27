@@ -2,7 +2,7 @@
 {
     public class Routes
     {
-        public const string Base = "ai";
+        public const string Base = "tokenizer";
         public const string BaseHealth = "health";
 
         public const string Token = Base + "/token";
